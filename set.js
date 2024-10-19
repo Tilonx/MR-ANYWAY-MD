@@ -9,9 +9,9 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || '',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Ibrahim Adams",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " Ibrahim Adams",              
-    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
+    OWNER_NAME: process.env.OWNER_NAME || "LØRD TĨLØÑX",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "233598275873",              
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "no",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'BMW_MD',
     URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/17c83719a1b40e02971e4.jpg',
